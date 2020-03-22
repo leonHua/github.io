@@ -350,7 +350,7 @@
                     var typed = new Typed("#subtitle", {
                         strings: ['心态决定一切',''],
                         startDelay: 300,
-                        typeSpeed: 100,
+                        typeSpeed: 200,
                         loop: true,
                         backSpeed: 50,
                         showCursor: false
@@ -423,6 +423,32 @@
         
             
             <div class="carousel-item amber white-text carousel-post bg-cover"
+                 style="background-image: url('/images/settings.jpg');">
+                <div class="container">
+                    <div class="row">
+                        <div class="col s10 offset-s1">
+                            <div class="title center-align">LSettingView--- 让你更加快速的实现设置界面</div>
+                            <div class="description center-align">
+                                
+                                    
+版本已更新至1.7.0，最新功能请查看传送门：https://github.com/leonHua/LSettingView
+
+
+在APP开发中，几乎每个应用都会有设置界面。而设置界面每一个条目基本上样式也都是固定的。每次要么去重新写布局
+                                
+                            </div>
+                            <div class="cover-btns">
+                                <a href="/2017/04/05/lsettingview-rang-ni-geng-jia-kuai-su-de-shi-xian-she-zhi-jie-mian/" class="waves-effect waves-light btn" target="_blank">
+                                    <i class="icon fa fa-eye fa-fw"></i>阅读更多
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            
+            <div class="carousel-item amber white-text carousel-post bg-cover"
                  style="background-image: url('/images/file.jpg');">
                 <div class="container">
                     <div class="row">
@@ -440,32 +466,6 @@
                             </div>
                             <div class="cover-btns">
                                 <a href="/2017/04/06/lfilepicker-wen-jian-xuan-ze-li-qi/" class="waves-effect waves-light btn" target="_blank">
-                                    <i class="icon fa fa-eye fa-fw"></i>阅读更多
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        
-            
-            <div class="carousel-item amber white-text carousel-post bg-cover"
-                 style="background-image: url('/images/settings.jpg');">
-                <div class="container">
-                    <div class="row">
-                        <div class="col s10 offset-s1">
-                            <div class="title center-align">LSettingView--- 让你更加快速的实现设置界面</div>
-                            <div class="description center-align">
-                                
-                                    
-版本已更新至1.7.0，最新功能请查看传送门：https://github.com/leonHua/LSettingView
-
-
-在APP开发中，几乎每个应用都会有设置界面。而设置界面每一个条目基本上样式也都是固定的。每次要么去重新写布局
-                                
-                            </div>
-                            <div class="cover-btns">
-                                <a href="/2017/04/05/lsettingview-rang-ni-geng-jia-kuai-su-de-shi-xian-she-zhi-jie-mian/" class="waves-effect waves-light btn" target="_blank">
                                     <i class="icon fa fa-eye fa-fw"></i>阅读更多
                                 </a>
                             </div>
@@ -558,6 +558,53 @@ LGank是一款精致的干货客户端下载使用：https://fir.im/lgankGitHub�
                 <div class="card-content">
                     
 
+                    
+                        <link href="https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.css" rel="stylesheet">
+<style>
+    .aplayer .aplayer-lrc p {
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px !important;
+    }
+    .aplayer .aplayer-lrc p.aplayer-lrc-current {
+        font-size: 15px;
+        color: #42b983;
+    }
+    
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+        left: -66px !important;
+    }
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+        left: 0px !important;
+    }
+    
+</style>
+<div class="music-player">
+    
+        <div class="title center-align">
+            <i class="fas fa-music"></i>&nbsp;&nbsp;静下来，这一刻聆听
+        </div>
+    
+    <div class="row">
+        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
+                   server="netease"
+                   type="song"
+                   id="29999529"
+                   fixed='false'
+                   autoplay='false'
+                   theme='#42b983'
+                   loop='all'
+                   order='random'
+                   preload='auto'
+                   volume='0.7'
+                   list-folded='true'
+        >
+        </meting-js>
+    </div>
+</div>
+
+<script src="https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
                     
 
                     
